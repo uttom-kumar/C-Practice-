@@ -8,5 +8,5 @@ int main()
     scanf("%d %d %lf", &n, &hour, &amount);
 
     selary = amount * hour;
-    printf("NUMBER = %d\nSALARY = U$ %.2lf", n,selary);
+    printf("NUMBER = %d\nSALARY = U$ %.2lf", n,selary); 
 }
