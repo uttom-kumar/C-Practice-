@@ -26,12 +26,15 @@ int main() {
 
     int taka_note1 = amount/1;
 
+    printf("NOTAS:\n");
     printf("%d nota(s) de R$ 100,00\n", taka_note100);
     printf("%d nota(s) de R$ 50,00\n", taka_note50);
     printf("%d nota(s) de R$ 20,00\n", taka_note20);
     printf("%d nota(s) de R$ 10,00\n", taka_note10);
     printf("%d nota(s) de R$ 5,00\n", taka_note5);
     printf("%d nota(s) de R$ 2,00\n", taka_note2);
+
+    printf("MOEDAS:\n");
     printf("%d nota(s) de R$ 1,00\n", taka_note1);
 
     return 0;
